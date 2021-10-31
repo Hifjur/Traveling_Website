@@ -8,7 +8,7 @@ const ServiceDetail = () => {
     const [place, setPlace] = useState({});
     const { id } = useParams();
     useEffect(() => {
-        const url = `http://localhost:5000/places/${id}`
+        const url = `https://ghastly-grave-69025.herokuapp.com/places/${id}`
         fetch(url)
             .then(res => res.json())
             .then(data => setPlace(data))

@@ -10,7 +10,7 @@ const AddNewPlace = () => {
   const onSubmit = data => {
     console.log(data)
 
-    axios.post('http://localhost:5000/places', data)
+    axios.post('https://ghastly-grave-69025.herokuapp.com/places', data)
       .then(res => {
         if (res.data.insertedId) {
           alert('added successfully')

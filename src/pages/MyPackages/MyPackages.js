@@ -8,7 +8,7 @@ import './MyPackages.css'
 const MyPackages = () => {
     const [packages, setPackages] = useState([])
     useEffect(() => {
-        fetch('http://localhost:5000/myPackages')
+        fetch('https://ghastly-grave-69025.herokuapp.com/myPackages')
             .then(res => res.json())
             .then(data => setPackages(data));
     })
@@ -18,7 +18,7 @@ const MyPackages = () => {
     const handleDeletePlace = id => {
         const proceed = window.confirm('Are You Sure, You Want to Delete?')
         if (proceed) {
-            const url = `http://localhost:5000/myPackages/${id}`
+            const url = `https://ghastly-grave-69025.herokuapp.com/myPackages/${id}`
             fetch(url, {
                 method: 'DELETE'
             })
