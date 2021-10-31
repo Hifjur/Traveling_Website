@@ -24,7 +24,7 @@ const AddNewPlace = () => {
     <Container>
       <Row className="my-5">
         <Col>
-          <img width="100%" src="http://wordpressboss.com/opb/vtravel-demo/assets/images/about.png" alt="" />
+          <img width="100%" src="https://images.unsplash.com/photo-1526772662000-3f88f10405ff?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8dHJhdmVsbGluZ3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80" alt="" />
         </Col>
         <Col>
           <h1>Adding More Packages for Travelto</h1>
