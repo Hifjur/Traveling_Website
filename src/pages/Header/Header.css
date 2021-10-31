@@ -21,3 +21,9 @@
     background-color: teal;
     border-radius: 20px;
 }
+
+.login-nav-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

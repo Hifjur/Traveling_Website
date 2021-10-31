@@ -17,14 +17,16 @@ const Header = () => {
                         <Nav.Link className="style-nav" as={HashLink} to="/home#resorts">Resorts</Nav.Link>
                         <Nav.Link className="style-nav" as={HashLink} to="/home#services">Services</Nav.Link>
                         <Nav.Link className="style-nav" as={HashLink} to="/home#events">Events</Nav.Link>
-                        <Nav.Link className="style-nav" as={HashLink} to="/myPackages">My Packages</Nav.Link>
 
-                        {/* <Nav.Link as={HashLink} to="/Mange Packages">Manage Packages</Nav.Link> */}
-                        <Nav.Link className="style-nav" as={HashLink} to="/addNewPlace">Add More Packages</Nav.Link>
-                        {user.email && <span className="p-3" style={{ color: 'white' }}>Hello {user.displayName}</span>}
+
                         <br />
                         {user.email ?
-                            <button className="style-nav-logout" onClick={logOut}>Log Out {user.photo} </button> :
+                            <div className="login-nav-link">
+                                <Nav.Link className="style-nav" as={HashLink} to="/myPackages">My Packages</Nav.Link>
+                                <Nav.Link className="style-nav" as={HashLink} to="/addNewPlace">Add More Packages</Nav.Link> <span className="p-3" style={{ color: 'white' }}>Hello {user.displayName}</span>
+                                <button className="style-nav-logout" onClick={logOut}>Log Out {user.photo} </button>
+                            </div>
+                            :
                             <Nav.Link className="style-nav" as={HashLink} to="/login">Login </Nav.Link>}
 
 
