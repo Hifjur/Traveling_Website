@@ -1,0 +1,20 @@
+.change-color{
+    background-color: #333333;
+}
+
+.style-nav{
+    color:white;
+    font-weight: bolder;
+}
+
+.style-nav:hover{
+    color: thistle;
+    font-size: 18px;
+}
+.travelto{
+    font-size: 36px;
+}
+.style-nav-logout{
+    color:black;
+    font-weight: bolder;
+}

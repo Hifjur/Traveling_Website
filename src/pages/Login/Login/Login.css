@@ -1,0 +1,23 @@
+
+
+.input-color{
+    background-color: brown;
+    border: 1px solid brown;
+    padding: 5px;
+    margin: 10px;
+    color: white;
+ 
+}
+.login{
+    background-color: rgb(243, 253, 253);
+    border: 2px solid white;
+    box-shadow: 2px 5px 5px rgb(114, 23, 23);
+   width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+
+
+
+}

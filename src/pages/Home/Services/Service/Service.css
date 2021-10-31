@@ -1,0 +1,19 @@
+.optimize-card{
+    height: 90%;
+    box-shadow: 10px 5px 5px whitesmoke;
+
+
+}
+.optimize-card:hover{
+    background-color: cornsilk;
+    transform: scale(1.02);
+}
+.visit{
+    padding: 10px;
+    background-color: #82B440;
+    border: 1px solid #82B440;
+}
+
+.visit:hover{
+    background-color: brown;
+}

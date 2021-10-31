@@ -1,0 +1,34 @@
+.imgHolder {
+  position: relative;
+height: 85%;
+
+}
+
+.imgHolder img{
+height: 100%;
+}
+.imgHolder span {
+  position: absolute;
+  right: 130px;
+  top: 70px;
+
+  font-weight: 900;
+  color: white;
+  font-size: 32px;
+   height: 100%;
+
+
+}
+
+
+.resort-img:hover{
+transform: scale(1.05);
+}
+
+
+@media only screen and (max-width:688px) {
+.resort-name{
+   display: none;
+}
+
+}

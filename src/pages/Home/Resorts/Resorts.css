@@ -1,0 +1,21 @@
+.imgHolder {
+    position: relative;
+
+}
+.imgHolder span {
+    position: absolute;
+    right: 130px;
+    top: 70px;
+
+    font-weight: 900;
+    color: white;
+    font-size: 32px;
+
+
+
+
+}
+.resorts{
+    background-image: url('https://html.geekcodelab.com/holiday-planners/assets/images/wave-design.jpg');
+    
+}

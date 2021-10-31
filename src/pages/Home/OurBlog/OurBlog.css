@@ -1,0 +1,7 @@
+.blog-background{
+    background-image: url('https://backpacktraveler.qodeinteractive.com/wp-content/uploads/2018/10/landing-background-top.jpg');
+}
+.blog-card{
+    /* box-shadow: 10px 10px 5px cornflowerblue; */
+    box-shadow: 5px 10px 5px rgba(220, 20, 60, 0.315);
+}

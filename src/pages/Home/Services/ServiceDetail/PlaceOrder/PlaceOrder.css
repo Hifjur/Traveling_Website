@@ -1,0 +1,16 @@
+.place-order form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.place-order form input{
+    width: 40%;
+    margin-bottom: 10px;
+}
+.place-order form textarea{
+    width: 40%;
+    margin-bottom: 10px;
+}
