@@ -22,7 +22,7 @@ const Footer = () => {
                                 <Form.Text className="text-muted">
                                 </Form.Text>
                             </Form.Group>
-                            <Button variant="danger" type="submit">
+                            <Button variant="warning" type="submit">
                                 Subscribe
                             </Button>
                         </Form>
