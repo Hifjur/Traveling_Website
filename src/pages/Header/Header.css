@@ -1,5 +1,5 @@
 .change-color{
-    background-color: #333333;
+    background-color: #003a29;
 }
 
 .style-nav{
@@ -15,6 +15,9 @@
     font-size: 36px;
 }
 .style-nav-logout{
-    color:black;
+    color:white;
     font-weight: bolder;
+    padding: 10px;
+    background-color: teal;
+    border-radius: 20px;
 }
