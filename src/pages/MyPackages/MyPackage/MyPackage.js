@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Row, Col, Card } from 'react-bootstrap';
+import { Button, Card } from 'react-bootstrap';
 import './MyPackage.css'
 
 const MyPackage = (props) => {

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Button, Card, Placeholder } from 'react-bootstrap';
+import {  Card } from 'react-bootstrap';
 import { useParams } from 'react-router';
 import PlaceOrder from './PlaceOrder/PlaceOrder';
 
@@ -12,7 +12,7 @@ const ServiceDetail = () => {
         fetch(url)
             .then(res => res.json())
             .then(data => setPlace(data))
-    }, [])
+    }, [id])
     return (
         <div>
 

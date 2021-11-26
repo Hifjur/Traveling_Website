@@ -1,6 +1,6 @@
 import React from 'react';
 import { useEffect, useState } from 'react';
-import { Card, Row, Container, Spinner } from 'react-bootstrap';
+import { Card, Row, Container, } from 'react-bootstrap';
 import MyPackage from './MyPackage/MyPackage';
 import './MyPackages.css'
 
@@ -57,7 +57,7 @@ const MyPackages = () => {
             </div>
 
 
-            <h1 className="my-5">Your Ordered Packages {packages.length}</h1>
+            <h1 className="my-5"> {packages.length} Packages Booked </h1>
             <Container className="">
                 <Row xs={1} md={3} className="mx-auto mb-5">
 

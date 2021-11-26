@@ -33,7 +33,6 @@ const Footer = () => {
                         <div className="footer-styling">
                             <h2 className="fw-bolder text-white">Quick Link</h2>
                             <p className="fw-bold text-white">About US </p>
-                            <p className="fw-bold text-white">lorem</p>
                             <p className="fw-bold text-white">Contact</p>
                             <p className="fw-bold text-white">places</p>
                         </div>
@@ -48,11 +47,11 @@ const Footer = () => {
                         <h2 className="fw-bolder text-white">Socials</h2>
                         <p className="fw-bold text-white">FaceBook</p>
                         <p className="fw-bold text-white">Instagram</p>
-                        <p className="fw-bold text-white">TWitter</p>
+                        <p className="fw-bold text-white">Twitter</p>
                         <p className="fw-bold text-white">Linkdin</p>
                     </Col>
                 </Row>
-                <p className="text-white fw-bold text-muted my-4">CopyRight 2021</p>
+                <p className="text-white fw-bold text-muted my-4">Copyright 2021</p>
             </Container>
 
         </div>

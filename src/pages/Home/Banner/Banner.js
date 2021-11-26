@@ -2,26 +2,29 @@ import React from 'react';
 import { Carousel } from 'react-bootstrap';
 import './Banner.css'
 
+
+
+
 const Banner = () => {
   return (
-    <div>
+    <div >
 
       <Carousel className="background-image">
         <Carousel.Item>
           <img height="50%"
             className="img-fluid"
-            src="https://images.unsplash.com/photo-1530789253388-582c481c54b0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80"
+            src="https://i.ibb.co/ZBn91Y8/banner-1.jpg"
             alt="First slide"
           />
           <Carousel.Caption>
             <h3 className="banner-text header-text">Do You Need TO Travel</h3>
-            <p className="banner-text paragraph-text">We have excited paxkages</p>
+            <p className="banner-text paragraph-text">We have excited packages</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
           <img height="50%"
             className="img-fluid"
-            src="https://images.unsplash.com/photo-1508672019048-805c876b67e2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1219&q=80"
+            src="https://i.ibb.co/VJ1DBbX/banner-2.jpg"
             alt="Second slide"
           />
 
@@ -32,8 +35,9 @@ const Banner = () => {
         </Carousel.Item>
         <Carousel.Item>
           <img
+            height="50%"
             className="img-fluid"
-            src="https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80"
+            src="https://i.ibb.co/nkDrPjP/banner-3.jpg"
             alt="Third slide"
           />
 

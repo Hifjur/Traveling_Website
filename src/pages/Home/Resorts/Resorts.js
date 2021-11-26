@@ -13,8 +13,8 @@ const Resorts = () => {
     }
     return (
         <div className="container mx-auto resorts" id="resorts">
-            <p className="text-primary">choose Your</p>
-            <h1 className="services-text my-5">Winter Resorts {resorts.length}</h1>
+    
+            <h1 className="services-text my-5">Winter Resorts</h1>
             <Container>
                 <Row xs={2} md={4} lg={3}>
 
